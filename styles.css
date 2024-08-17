@@ -1,0 +1,77 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #e0f7fa;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.container {
+    position: relative;
+}
+
+.dino-img {
+    width: 200px;
+    height: auto;
+    margin-bottom: 20px; /* Space between the dinosaur image and the heading */
+}
+
+button {
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    transition: transform 0.3s ease;
+}
+
+#yesBtn {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#noBtn {
+    background-color: #f44336;
+    color: white;
+}
+
+.hidden {
+    display: none;
+}
+
+#message {
+    position: relative;
+    height: 200px; /* Adjust based on text size */
+    overflow: hidden;
+}
+
+.message-text {
+    position: absolute;
+    font-size: 20px;
+    color: #2a5d34;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    white-space: nowrap;
+    opacity: 0;
+    transition: opacity 1s, transform 1s; /* Smooth animation for appearance and movement */
+}
+
+#letter {
+    font-size: 18px;
+    color: #2a5d34;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+h1 {
+    color: #2a5d34;
+    font-size: 24px;
+}
+
+h2 {
+    color: #4CAF50;
+    font-size: 28px;
+}
